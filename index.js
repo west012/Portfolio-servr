@@ -1,9 +1,10 @@
-const express =require('express');
-const bodyParser =require('body-parser');
-const db =require('./queries');
-const cors =require('cors');
-const app =express();
+const express = require('express');
+const bodyParser = require('body-parser');
+const db = require('./queries');
+const cors = require('cors');
+const app = express();
 const port = 3030;
+const {response} = require('express');
 
 app.use(cors());
 

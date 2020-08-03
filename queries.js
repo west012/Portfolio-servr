@@ -5,7 +5,7 @@ const pool = new Pool({
     host:info.host,
     database:info.database,
     password:info.password,
-    port:info.port
+    port:info.port,
 })
 
 const getProjects = (request, response) => {
