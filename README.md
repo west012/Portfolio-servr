@@ -1,4 +1,3 @@
-psql -h portfolio-instance.ccsht2sj640l.us-west-2.rds.amazonaws.com -p 5432 -U postgres
 
 
 CREATE TABLE projects (
